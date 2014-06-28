@@ -146,27 +146,30 @@ Masch.gruppe, Fertigungshilfsmittel
     arbeitet mit diesen Informationen?
 }
 
-Werkzeugliste, Aufspannplan, NC-Arbeitsplan, Messmittel
-
-Abteilung:??
+Werkzeugliste, Aufspannplan, NC-Arbeitsplan, Messmittel\\
+Abteilung: Arbeitsvorbereitung
 
 \subsection*{%
     Nennen Sie drei verschiedene Möglichkeiten zur Programmierung von
-    NC-Maschinen und beschreiben Sie in Stichworten die Unterschiede
+    NC-Maschinen und beschreiben Sie in Stichworten die Unterschiede. %%%%%%%%%%%%%%% die da wären? Oder sind die Antwort der nächsten Frage tatsächlich die Unterschiede?
 }
 
 \begin{enumerate}[1)]
-    \item direkte Programmierung an der Maschine
-    \item direkte Programmierung an einem externen Gerät
-    \item Programmierung mit Hlfe einer graphischen Oberfläche und interaktiv
-    \item Programmierung mit Hilfe einer grafschen Oberfäche und CAD-Kopplung
+    \item manuelle Steuerung: direkte Programmierung an der Maschine\\
+    	\emph{Problem/Unterschied:} andere Bedienoberfläche, andere Worte/Sätze in Programmiersprache
+    \item manuell extern: direkte Programmierung an einem externen Gerät
+    \item Programmierung mit Hilfe einer grafischen Oberfläche und interaktiv; \\
+    	\emph{grafisch:} Darstellung der Geometrie des Werkstücks auf dem Bildschirm\\
+    	\emph{interaktiv:} Eingabe der Geometrie, Verfahrwege, etc. im Dialog mit dem Rechner\\
+    	$\Rightarrow$ Schritt-für-Schritt-Benutzung; Vorteil: weniger Fehler, Arbeitsaufwand verringern, nachträgliche Änderungen erleichtern
+    \item Programmierung mit Hilfe einer grafischen Oberfäche und CAD-Kopplung
     \item
-        Programmierung mit Hilfe einer grafschen Oberfäche und integriertem
+        Programmierung mit Hilfe einer grafischen Oberfäche und integriertem
         CAM-System
 \end{enumerate}
 
 \subsection*{%
-    Was versteht man unter „grafsch interaktiver NC-Programmierung“. Erläutern
+    Was versteht man unter „grafisch interaktiver NC-Programmierung“. Erläutern
     Sie drei Merkmale in Stichworten
 }
 
@@ -174,13 +177,13 @@ Abteilung:??
     \item Bearbeitungsgeometrie des Werkstücks graphisch auf dem Bildschirm
     \item
         interaktive Eingabevorgänge $\Rightarrow$ im Dialog eingegeben,
-        kontrolliert und korrigiert werden
-    \item Schritt für Schritt Programmierung
+        es kann kontrolliert und korrigiert werden
+    \item Schritt-für-Schritt-Programmierung
     \item Möglichkeit zur Kopplung an CAD
 \end{itemize}
 
 \subsection*{%
-    Nennen Sie beispielhaft 5 Einsatzkriterien für grafsch interaktive
+    Nennen Sie beispielhaft 5 Einsatzkriterien für grafisch interaktive
     Programmierung
 }
 
@@ -224,23 +227,22 @@ Abteilung:??
 }
 
 Es wird nicht mehr nur die geometrischen Elemente mit ihren festen Werten
-erfast, sondern auch die hinterlegten Informationen die sogenannte „Semantik“
-wie z.\.B. Funktionen und Fertigungstechnologie.
+erfasst, sondern auch die hinterlegten Informationen – die sogenannte „Semantik“
+wie z.\,B. Funktionen und Fertigungstechnologie.
 
 Ein Feature ist also eine spezifische aus Daten generierte Sichtweise auf die
 Produktbeschreibung, die Eigenschaftsklassen und bestimmte Phasen des
-Produktlebenszyklus in sich bündelt.
+Produktlebenszyklus’ in sich bündelt.
 
 \subsection*{%
-    Beschreiben sie in Stichpunkten den Unterschied zwischen \glqq
-    konventionellen\grqq {} und feature basierten CAD-Systemen.
+    Beschreiben sie in Stichpunkten den Unterschied zwischen „konventionellen“ und feature-basierten CAD-Systemen.
 }
 
 siehe oben.
 
 \subsection*{%
     Erläutern sie an einem Beispiel den Unterschied zwischen \glqq
-    Konstriktionsfeature\grqq {} und \glqq Fertigungsfeature\grqq
+    Konstruktionsfeature\grqq {} und \glqq Fertigungsfeature\grqq
 }
 
 Allgemein kann man sagen, dass das Konstruktionsfeature Informationen über
@@ -279,7 +281,7 @@ Informationen wie die Bearbeitungsschritte (bohren, senken, …)
     \item Bessere Verfügbarkeit der Werkzeuge
     \item Reduzierung der Werkzeugtypen
     \item Reduzierung der Werkzeuganzahl
-    \item Komponenteneinsparung durh Technologiestandardisierung
+    \item Komponenteneinsparung durch Technologiestandardisierung
     \item Bessere Nutzung der Ressourcen (Wiederverwendung, Reststandzeit)
     \item Vereinfachte Arbeitsplanung
     \item Vereinfachte, vereinheitlichte NC-Programmierung mit Datensicherheit
